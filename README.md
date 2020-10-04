@@ -1,7 +1,5 @@
-README.md:
-	echo "# Guessing Game Project" > README.md
-	echo "*by Priti Na on(https://www.coursera.org/).*" >> README.md
-	echo "The project is about asking the user to guess the number of files that are present in the directory they are currently working in" >> README.md
-	echo Created on $$(date +%D) at $$(date +%H:%M:%S) >> README.md
-	echo "" >> README.md
-	echo Script guessgame.sh contains $$(wc -l guessgame.sh | egrep -o "[0-9]+") lines >> README.md
+## The Unix assignment
+*by Priti on (https://www.coursera.org/).*
+\n**Description**: make a program called *guessgame.sh*. This program will ask the user to guess the number of files that are present in the current directory, until they guess the correct number. The user is informed if their guess is too high or too low. Once the user guesses the correct number of files in the current directory they should be congratulated.
+\n**Make date**: Sun Oct  4 20:15:22 IST 2020
+\n**Number of lines in guessgame.sh:** 23
